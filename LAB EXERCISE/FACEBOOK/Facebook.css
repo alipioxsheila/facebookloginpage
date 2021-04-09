@@ -1,0 +1,281 @@
+/*whole page*/
+body {
+  margin: 0;
+  font-family: 'Lucida Grande', tahoma,verdana,arial,sans-serif;
+  line-height: 1.30;
+}
+/*top header*/
+#topheader {
+  width: 100%;
+  height: 85px;
+  background-color: #B9375E;
+}
+/*top header content*/
+#topheadercontent {
+  margin: 0 auto;
+  width:980px;
+  height:60px;
+}
+/*bottom part*/
+#bottom {
+  width: 100%;
+  height: 635px;
+  background-color: #FFE0E9;
+}
+/*bottom part content*/
+#bottomcontent {
+  margin: 0 auto;
+  width:980px;
+  padding-top:25px;
+}
+/*facebook text*/
+h1 {
+  font-size: 40px;
+  letter-spacing:1px;
+  margin: 0;
+  color:#F8F9FA;
+  -webkit-font-smoothing:antialiased;
+}
+/*facebook text*/
+.logo {
+  width: 10;
+  font-family: Kavoon;
+  display: block;
+  padding: 25px 0;
+  cursor: pointer;
+}
+/*log in button text*/
+#loginbtn {
+  position:relative;
+  width:50px;
+  height:20px;
+  background-color: #8A2846;
+  border: 1px solid #FFE0E9;
+  border-color:#FF9EBB #E05780 #8A2846 #522E38;
+  cursor:pointer;
+  font-size:12px;
+  font-weight:bold;
+  text-align:center;
+  color:#fff;
+}
+/*placement of emailpass*/
+.emailpassloc {
+  float:right;
+  margin-top:15px;
+}
+/*style of emailpass*/
+.row1 {
+  font-family: Forum;
+  color:#fff;
+  font-size:15px;
+  width:160px;
+}
+/*size of emailpass textbox*/
+.inputtext {
+  border-radius: 1px;
+  border-color: #000000;
+  margin: 0;
+  width: 145px;
+  border: 1px solid #FFE0E9;
+  margin: 0;
+  padding: 3px;
+  background-color: #fff;
+}
+/*style of forgottenacct*/
+.row2 {
+  font-family: Forum;
+  color:#FFE0E9;
+  font-size:15px;
+  width:190px;
+  cursor:pointer;
+}
+/*placement of left text*/
+#lefttext {
+  width:565px;
+  display:inline-block;
+}
+/*size of left text*/
+.fbconnect {
+  width:450px;
+  height: 72px;
+  padding: 30px 0 24px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000000;
+  display:inline-block;
+}
+/*placement of right text*/
+#righttext {
+  display:inline-block;
+  vertical-align:top;
+  width:400px;
+  height:200px;
+}
+/*create an account text style and placement*/
+.createacct {
+  font-size:36px;
+  -webkit-font-smoothing: antialiased;
+  font-weight:700;
+  margin-bottom:10px;
+}
+/*quick and easy text style and placement*/
+.free {
+  font-size:20px;
+  margin-bottom:30px;
+}
+/*3 texts style and placement*/
+.bolder {
+  font-family: Livvic;
+  text-rendering:optimizelegibility;
+  color:#212529;
+}
+/*textbox placement*/
+.signupboxloc {
+  display: inline-block;
+  width:375px;
+}
+/*textbox style*/
+.inputbody {
+  display: inline-block;
+  font-size: 17px;
+  padding: 10px 10px;
+  border: 1px solid #8A2846;
+  border-radius: 5px;
+  color: #212529;
+  margin-bottom:11px;
+}
+/*firstname username textbox size*/
+.in1 {
+  width:180px;
+}
+/*mobile and password textbox size*/
+.in2 {
+  width:377px;
+}
+/*username placement*/
+.fr {
+  float:right;
+}
+/*birthday text style*/
+.bday {
+  font-size:20px;
+  color:#212529;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom:3px;
+}
+/*mmddyyyy size and style*/
+.selectbody {
+  display: inline-block;
+  height:35px;
+  font-size: 13px;
+  border: 1px solid #8A2846;
+  border-radius: 5px;
+  color: #212529;
+}
+/*forgotten account hover*/
+.h:hover {
+  text-decoration: underline;
+}
+/*mfc gender style, size, placement*/
+.gender {
+  font-size: 18px;
+  color: #212529;
+  cursor: pointer;
+  padding: 0 5px 0 1px;
+  margin-right: 5px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+/*mfc gender placement and margin*/
+.spanpad {
+  padding: 1px 0 8px 3px;
+  display: inline-block;
+}
+/*mfc gender margin top*/
+.mt1 {
+  margin-top:10px;
+}
+/*mfc gender margin to each other*/
+.m0 {
+  margin: 0;
+}
+
+.agree {
+  font-size: 13px;
+  color: #6C757D;
+  width:316px;
+  margin: 11px 0 11px ;
+}
+.link {
+  color:#522E38;
+  display: inline-block;
+  cursor: pointer;
+}
+/*datapolicy hover*/
+.link:hover {
+  text-decoration: underline;
+}
+.signbut {
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color:#fff;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(#E05780, #8A2846);
+  box-shadow: inset 0 1px 1px #fff;
+  border: 1px solid;
+border-color: #E05780;
+  margin-top: 10px;
+margin-bottom: 10px;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  cursor:pointer;
+}
+.signbut:hover {
+  background: -webkit-linear-gradient(#8A2846, #E05780);
+}
+.create {
+  border-top: 1px solid #a0a9c0;
+  color: #6C757D;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+.far {
+  color: #8A2846;
+  cursor: pointer;
+}
+.fas {
+  color: #212529;
+}
+.fab{
+  color:#B9375E;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+/*get app text*/
+h2 {
+  font-size: 20px;
+  letter-spacing:2px;
+  margin: 0;
+  color:#212529;
+}
+/*get app text*/
+.app {
+  width: 100px;
+  font-family: Livvic;
+  display: block;
+  padding: 25px 0;
+  font-weight: bold;
+}
+#get{
+  text-align: left;
+  color: #522E38;
+  font-size: 10px;
+  margin-top: 330px;
+}
